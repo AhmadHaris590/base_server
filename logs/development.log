@@ -13305,3 +13305,1662 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T10:44:47.258Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T10:44:47.270Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T10:44:47.272Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:46:08.807Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:46:09.057Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:46:09.238Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:46:09.309Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:46:12.404Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:47:51.131Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/user"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:47:57.669Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:49:22.925Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:49:24.444Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:49:24.690Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:49:24.841Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:49:25.055Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:55.584Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:56.896Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:57.413Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:57.694Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:57.889Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:58.138Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:58.348Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:58.767Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:58.949Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:59.100Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:59.254Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:59.408Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:59.585Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T10:59:59.797Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:00:12.313Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:01:25.044Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:01:25.053Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:01:25.055Z",
+    "message": "Application started on port 3100",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:38.029Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:38.296Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.130Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.248Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.479Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.635Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.784Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:01:40.990Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:03:04.039Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:03:04.047Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:03:04.048Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:04:58.360Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:24:12.819Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:24:12.831Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:24:12.834Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:24:15.373Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:24:24.092Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "19.87 Second",
+                "memoryUsage": {
+                    "heapTotal": "275.12 MB",
+                    "heapUsed": "261.54 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "16159.09 MB",
+                "freeMemory": "4967.96 MB"
+            },
+            "timeStamp": 1778757864091
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:24:43.321Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/auth"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:24:47.291Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/auth/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:29:24.966Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/me"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:29:29.656Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/me"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:509:28)\n    at SendStream.emit (node:domain:489:12)\n    at SendStream.error (C:\\Users\\shah jee\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:29:40.393Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health/me"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T11:29:47.738Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "343.51 Second",
+                "memoryUsage": {
+                    "heapTotal": "264.87 MB",
+                    "heapUsed": "262.71 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "16159.09 MB",
+                "freeMemory": "5135.48 MB"
+            },
+            "timeStamp": 1778758187737
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:31:36.448Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:31:46.975Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:33:00.405Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:33:18.704Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/Login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:35:01.893Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/Login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:36:06.710Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1//registeration/confirm/123"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:36:31.276Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1//registeration/confirm/'hy'"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:36:35.219Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1//registeration/confirm"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:36:38.814Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1//registeration"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:39:59.167Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/registeration/confirm/haris"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:41:27.139Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/registeration/confirm/:haris"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T11:41:40.549Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/registeration/confirm/:'haris'"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T12:21:30.223Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T12:21:30.231Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T12:21:30.233Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:21:34.680Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/registeration/confirm/:'haris'"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\shah jee\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at router.process_params (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at router.handle (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\shah jee\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T12:21:42.145Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T12:21:52.677Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "6a05be605d1c4b17c44a8359"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:22:08.571Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "tutel751@gmail.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: tutel751@gmail.com already exists for the user\n    at C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:9:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:25:01.835Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.tustbbm.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:25:12.995Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.tustbbm.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:35:37.947Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:38:04.211Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:44:43.535Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:45:51.807Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:49:26.433Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:49:43.340Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:52:32.144Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ECONNREFUSED",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.cluster0.eb9grxi.mongodb.net"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:54:45.150Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Server selection timed out after 30000 ms",
+        "errorLabelSet": {},
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {},
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sbaiues-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        },
+        "cause": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {},
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sbaiues-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T12:58:37.433Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Server selection timed out after 30000 ms",
+        "errorLabelSet": {},
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {},
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sbaiues-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        },
+        "cause": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {},
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-sbaiues-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:00:23.040Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:00:23.048Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:00:23.049Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:40.603Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:41.646Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:41.804Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:41.961Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:42.124Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:42.337Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:01:50.993Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "6a05c7be594619ead25b136d"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T13:03:09.702Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "tutel751@gmail.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: tutel751@gmail.com already exists for the user\n    at C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:9:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:06:20.510Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:06:20.519Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:06:20.520Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2026-05-14T13:06:29.995Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "tutel751@gmail.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: tutel751@gmail.com already exists for the user\n    at C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:9:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\shah jee\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2026-05-14T13:09:39.128Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "6a05c7be594619ead25b136d",
+                "password": "$2b$10$I4kMnZefBH0RlKAZmSUGf.8u6uJ/C36nsCEPNaDRweWD4feuBw.0u",
+                "lastLoginAt": "2026-05-14T13:09:38.999Z",
+                "updatedAt": "2026-05-14T13:09:39.009Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTA1YzdiZTU5NDYxOWVhZDI1YjEzNmQiLCJpYXQiOjE3Nzg3NjQxNzgsImV4cCI6MTc3ODc2Nzc3OH0.5rfQmA0TRE35X0dumTQ9h4b49GUPBBJQBUy0fPQLZSI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTA1YzdiZTU5NDYxOWVhZDI1YjEzNmQiLCJpYXQiOjE3Nzg3NjQxNzgsImV4cCI6MTgxMDMwMDE3OH0.7bXAjQ1Szn7kzerOCPNTrlOuC9vKTXWGd5QhaD9wFTM"
+        }
+    }
+}

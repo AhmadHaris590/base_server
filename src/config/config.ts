@@ -1,4 +1,8 @@
+import dns from 'dns'
 import dotenvFlow from 'dotenv-flow'
+
+// Force Node.js to use Google DNS (fixes c-ares SRV resolution issues on some networks)
+dns.setServers(['8.8.8.8', '8.8.4.4'])
 
 dotenvFlow.config()
 
