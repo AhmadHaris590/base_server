@@ -4,4 +4,6 @@ dist
 
 .env.development
 .env.production
-.env.test
+.env.testgit commit -m "Updated project features"
+.env
+.env.*
