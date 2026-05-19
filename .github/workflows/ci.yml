@@ -9,20 +9,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -name: Checkout-code
-      uses: actions/checkout@v4
+      - name: Checkout-code
+        uses: actions/checkout@v4
 
-      -name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'npm'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
 
-      -name: Install dependencies
-      run: npm Install
+      - name: Install dependencies
+        run: npm Install
 
-      -name: Lint code
-      run: npm run lint
+      - name: Lint code
+        run: npm run lint
 
-      -name: Run tests
-      run: npm run test
+      - name: Run tests
+        run: npm run test
